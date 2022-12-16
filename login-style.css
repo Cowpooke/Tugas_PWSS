@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.input-text-outer {
+    padding: 10px;
+}
+
+.input-text {
+    width: 300px;
+    padding: 20px;
+    border: none;
+    background-color: #c6e7c9;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-submit {
+    margin: 30px;
+    text-align: center;
+    width: 340px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #5eba24;
+    color: #FFF;
+}
+
+.fail-login {
+    color: red;
+}
